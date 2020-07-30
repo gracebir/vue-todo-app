@@ -2,6 +2,7 @@
   <div>
     <div class="container">
       <AddTodo/>
+      <FilterTodos/>
         <Todo/>
     </div>
   </div>
@@ -10,13 +11,15 @@
 <script>
 import Todo from './components/Todo';
 import AddTodo from './components/AddTodo';
+import FilterTodos from './components/FilterTodos';
 
 
 export default {
   name: 'App',
   components: {
     Todo,
-    AddTodo
+    AddTodo,
+    FilterTodos
   }
 }
 </script>
