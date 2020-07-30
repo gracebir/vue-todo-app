@@ -22,7 +22,7 @@ const actions = {
 
 const mutations = {
     setTodos : (state, todos) => (state.todos = todos),
-    addTodo: (state, todo) => state.todos.unshift(todo),
+    newTodo: (state, todo) => state.todos.unshift(todo),
 }
 
 export default{
